@@ -6,6 +6,8 @@ is closed with the red close button. Quitting with ⌘Q exits normally.
 ## Environment
 
 - eframe 0.36.2 (default features), winit 0.30.13 (pinned in `Cargo.lock`)
+- Also reproduces on `main` at [`efcf497`](https://github.com/emilk/egui/commit/efcf49788df313b7ff701995f211aa543d2c9ac5),
+  with `egui` and `eframe` patched to the `main` branch in `[patch.crates-io]`
 - macOS 27.0 (26A428), Mac mini (Mac16,10, Apple M4). This Mac has no Touch Bar.
 - rustc 1.99.0
 
